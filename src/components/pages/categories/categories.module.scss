@@ -1,0 +1,132 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .active {
+    color: #0008c1;
+  }
+}
+
+.buttons {
+  display: flex;
+  justify-content: flex-start;
+  align-content: space-around;
+  align-items: center;
+}
+
+.category {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  border: 1px solid #FFFFFF;
+  width: 140px;
+  height: 80px;
+  margin: 10px;
+  background: #FFFFFF;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+
+  &:hover {
+    border-color: #0008C1;
+  }
+
+  .img:hover {
+    //background-color: #0008C1;
+  }
+}
+
+.btnClose {
+  margin-left: 105px;
+}
+
+.categoriContainer {
+  width: 301px;
+  height: 360px;
+  background-color: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+
+  .buttons {
+    display: flex;
+    background: #FFFFFF;
+    justify-content: center;
+  }
+
+  .button {
+    box-sizing: border-box;
+    width: 125px;
+    height: 32px;
+    background: #FFFFFF;
+    border: 1px solid #A4A4A4;
+    border-radius: 5px;
+  }
+}
+
+.titleContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.button {
+  margin: 20px;
+  border: 1px solid black;
+}
+
+.modalConatiner {
+  display: flex;
+  flex-direction: column;
+
+  .span {
+    width: 300px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.addButton {
+  margin-top: 10px;
+  border: 1px solid #0008C1;
+  width: 306px;
+  height: 32px;
+  background: #0008C1;
+  border-radius: 25px;
+  color: white;
+}
+
+.categoriModal {
+  width: 500px;
+}
+
+.addbtn {
+
+  height: 80px;
+  width: 50px;
+  background: #FFFFFF;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+}
+
+.uploadingContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #D3D3D3;
+  border-radius: 5px;
+  color: white;
+  position: relative;
+  width: 300px;
+  height: 150px;
+  //padding: 11%;
+  svg {
+    font-size: 24px;
+    color: white;
+  }
+}
+.error{
+  border:1px solid red ;
+}

@@ -1,0 +1,7 @@
+export const HOME_PAGE = "/"
+export const SHOP_PAGE = "/shop"
+export const ABOUT_PAGE = "/about"
+export const HELP_PAGE = "/help"
+export const SIGN_IN ="/sign-in"
+export const LOGOUT="/logout"
+export const REGISTER_PAGE = "/register"

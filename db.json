@@ -1,0 +1,395 @@
+{
+  "users": [
+    {
+      "firstName": "Gevorg",
+      "lastName": "Vardanyan",
+      "email": "gevorgmatem@gmail.com",
+      "password": "Bolshe2020",
+      "id": 4
+    },
+    {
+      "firstName": "gev",
+      "email": "gev",
+      "password": "gev",
+      "id": 5
+    },
+    {
+      "firstName": "mxo",
+      "email": "mxo@gmail.ru",
+      "password": "Aa1234",
+      "id": 6
+    },
+    {
+      "firstName": "",
+      "email": "",
+      "password": "",
+      "id": 7
+    },
+    {
+      "firstName": "user1",
+      "email": "user@mail.ru",
+      "password": "user1234",
+      "id": 8
+    },
+    {
+      "firstName": "gevorg",
+      "email": "gevorgmatem@gmail.com",
+      "password": "123456",
+      "id": 9
+    }
+  ],
+  "genders": [
+    {
+      "id": 1,
+      "name": "/female.png",
+      "icon": "FaMale"
+    },
+    {
+      "id": 2,
+      "name": "/male.png",
+      "icon": "FaFemale"
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "ring",
+      "image": "/img1.png",
+      "genderId": 2
+    },
+    {
+      "id": 2,
+      "name": "necklace",
+      "image": "/img2.png",
+      "genderId": 2
+    },
+    {
+      "id": 3,
+      "name": "Earring",
+      "image": "/img3.png",
+      "genderId": 2
+    },
+    {
+      "id": 4,
+      "name": "chain ",
+      "image": "/img4.png",
+      "genderId": 1
+    },
+    {
+      "id": 5,
+      "name": "breastplate",
+      "image": "/img5.png",
+      "genderId": 1
+    },
+    {
+      "id": 6,
+      "name": "trinket",
+      "image": "/img6.png",
+      "genderId": 1
+    },
+    {
+      "id": 7,
+      "name": "bracelet",
+      "image": "/img7.png",
+      "genderId": 1
+    }
+  ],
+  "subCategories": [
+    {
+      "id": 1,
+      "name": "rings",
+      "categoryId": 1
+    },
+    {
+      "name": "gold nikles",
+      "categoryId": 1,
+      "id": 6
+    },
+    {
+      "name": " silver nikless",
+      "categoryId": 1,
+      "id": 7
+    },
+    {
+      "id": 2,
+      "name": "wedding",
+      "categoryId": 2
+    },
+    {
+      "id": 3,
+      "name": "brass rings",
+      "categoryId": 1
+    },
+    {
+      "id": 4,
+      "name": "cocktail",
+      "categoryId": 4
+    },
+    {
+      "id": 5,
+      "name": "engagement",
+      "categoryId": 5
+    },
+    {
+      "name": "gold earring",
+      "categoryId": 3,
+      "id": 8
+    },
+    {
+      "name": " new earning",
+      "categoryId": 3,
+      "id": 9
+    },
+    {
+      "name": "trinket",
+      "categoryId": 6,
+      "id": 10
+    },
+    {
+      "name": "golden",
+      "genderId": 1,
+      "categoryId": 4,
+      "id": 11
+    },
+    {
+      "name": "chaxo jan",
+      "genderId": 2,
+      "categoryId": 1,
+      "id": 12
+    }
+  ],
+  "product": [
+    {
+      "id": 1,
+      "image": "/product1.png",
+      "price": 2500,
+      "name": "AA9",
+      "imageId": 1,
+      "categoryId": 1
+    },
+    {
+      "price": "850",
+      "name": "850",
+      "image": "/product26.png",
+      "imageId": 4,
+      "categoryId": 4,
+      "id": 2
+    },
+    {
+      "price": "840",
+      "name": "840",
+      "image": "/product25.png",
+      "imageId": 4,
+      "categoryId": 4,
+      "id": 3
+    },
+    {
+      "price": "987",
+      "name": "987",
+      "image": "/product25.png",
+      "imageId": 4,
+      "categoryId": 4,
+      "id": 4
+    },
+    {
+      "price": "555",
+      "name": "888",
+      "image": "/product26.png",
+      "imageId": 4,
+      "categoryId": 4,
+      "id": 5
+    },
+    {
+      "price": "111",
+      "name": "111",
+      "image": "/product23.png",
+      "imageId": 4,
+      "categoryId": 4,
+      "id": 6
+    },
+    {
+      "price": "222",
+      "name": "222",
+      "image": "/product24.png",
+      "imageId": 4,
+      "categoryId": 4,
+      "id": 7
+    },
+    {
+      "price": "333",
+      "name": "333",
+      "image": "/product26.png",
+      "imageId": 4,
+      "categoryId": 4,
+      "id": 8
+    },
+    {
+      "price": "699",
+      "name": "699",
+      "image": "/product24.png",
+      "imageId": 4,
+      "categoryId": 4,
+      "id": 9
+    },
+    {
+      "price": "777",
+      "name": "777",
+      "image": "/product23.png",
+      "imageId": 4,
+      "categoryId": 4,
+      "id": 11
+    },
+    {
+      "price": "778",
+      "name": "877",
+      "image": "/product24.png",
+      "imageId": 4,
+      "categoryId": 4,
+      "id": 12
+    },
+    {
+      "price": "888",
+      "name": "888",
+      "image": "/product26.png",
+      "imageId": 4,
+      "categoryId": 4,
+      "id": 13
+    },
+    {
+      "price": "878",
+      "name": "www",
+      "image": "/product26.png",
+      "imageId": 4,
+      "categoryId": 4,
+      "id": 14
+    },
+    {
+      "price": "987",
+      "name": "987",
+      "image": "/product26.png",
+      "imageId": 4,
+      "categoryId": 4,
+      "id": 15
+    },
+    {
+      "price": "987",
+      "name": "rtr",
+      "image": "/product6.png",
+      "imageId": 11,
+      "categoryId": 4,
+      "id": 16
+    },
+    {
+      "price": "987",
+      "name": "rtrtrt7",
+      "image": "/product5.png",
+      "imageId": 11,
+      "categoryId": 4,
+      "id": 17
+    },
+    {
+      "price": "54",
+      "name": "ty",
+      "image": "/product26.png",
+      "imageId": 11,
+      "categoryId": 4,
+      "id": 18
+    },
+    {
+      "price": "555",
+      "name": "ytju",
+      "image": "/product26.png",
+      "imageId": 11,
+      "categoryId": 4,
+      "id": 19
+    },
+    {
+      "price": "852",
+      "name": "juy",
+      "image": "/product21.png",
+      "imageId": 11,
+      "categoryId": 4,
+      "id": 20
+    },
+    {
+      "price": "888",
+      "name": "gjh",
+      "image": "/product26.png",
+      "imageId": 11,
+      "categoryId": 4,
+      "id": 21
+    },
+    {
+      "price": "777",
+      "name": "jhj888",
+      "image": "/product3.png",
+      "imageId": 11,
+      "categoryId": 4,
+      "id": 22
+    },
+    {
+      "price": "987",
+      "name": "hjh",
+      "image": "/product26.png",
+      "imageId": 11,
+      "categoryId": 4,
+      "id": 23
+    },
+    {
+      "price": "987",
+      "name": "ppp",
+      "image": "/product10.png",
+      "imageId": 11,
+      "categoryId": 4,
+      "id": 25
+    },
+    {
+      "price": "87",
+      "name": "45",
+      "image": "/product10.png",
+      "imageId": 1,
+      "categoryId": 1,
+      "id": 26
+    },
+    {
+      "price": "22",
+      "name": "eeeee",
+      "image": "/product23.png",
+      "imageId": 11,
+      "categoryId": 4,
+      "id": 27
+    },
+    {
+      "price": "87",
+      "name": "sd",
+      "image": "/product4.png",
+      "imageId": 4,
+      "categoryId": 4,
+      "id": 28
+    },
+    {
+      "price": "987",
+      "name": "saa",
+      "image": "/product26.png",
+      "imageId": 4,
+      "categoryId": 4,
+      "id": 29
+    },
+    {
+      "price": "87",
+      "name": "yt",
+      "image": "/product7.png",
+      "imageId": 5,
+      "categoryId": 5,
+      "id": 30
+    },
+    {
+      "price": "545",
+      "name": "ds",
+      "image": "/product6.png",
+      "imageId": 4,
+      "categoryId": 4,
+      "id": 31
+    }
+  ]
+}

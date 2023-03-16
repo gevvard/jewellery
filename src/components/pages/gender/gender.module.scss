@@ -1,0 +1,44 @@
+.genderContainer{
+
+  //background-color: #E6E6E6;
+  &.horizontal {
+    display: flex;
+  }
+  div{
+    width: 50px;
+    height: 32px;
+    margin: 8px;
+    border:1px solid #e6e6e6;
+    //background-color: #e6e6e6;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: grey;
+    &:hover{
+      border-color: #0008C1;
+      svg {
+        color: darkgrey;
+      }
+    }
+    svg {
+      font-size: 22px;
+    }
+
+  }
+  .active {
+    svg {
+      color: #0008C1;
+    }
+  }
+
+  span{
+
+    border: 1px solid black;
+    margin: 1px;
+    width: 80px;
+    height: 40px;
+  }
+}

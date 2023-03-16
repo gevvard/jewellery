@@ -1,0 +1,21 @@
+.image-item {
+  display: flex;
+  img {
+    height: 150px;
+  }
+}
+.image-items{
+  display: flex;
+  position: absolute;
+  top: 0;
+  height: auto;
+  left: 0;
+}
+.image-item__btn-wrapper {
+  display: flex;
+  margin-left: 10px;
+  display: none;
+}
+button {
+  height: 40px;
+}

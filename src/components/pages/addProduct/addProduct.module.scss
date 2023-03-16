@@ -1,0 +1,80 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+}
+
+.titleContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.addProdCont {
+  display: flex;
+  //justify-content: space-between;
+}
+
+.error {
+  input {
+    border-color: red;
+  }
+}
+.inputContainer {
+  display: flex;
+  flex-direction: column;
+  margin: 0 1%;
+}
+
+.hr {
+  display: flex;
+  flex-direction: column;
+}
+
+.section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 5px;
+}
+
+.addbtn {
+  background: #0008c1;
+  box-shadow: 0px 0px 10px rgb(0 0 0 / 25%);
+  border-radius: 25px;
+  height: 32px;
+  width: 160px;
+  margin: 2% auto;
+  color: white;
+}
+
+.uploadingContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #D3D3D3;
+  border-radius: 5px;
+  width: 200px;
+  height: 115px;
+  //padding: 5% 0;
+  color: white;
+  position: relative;
+
+  .icon {
+    width: 100px;
+    height: 100px;
+    font-size: 100px;
+    background-color: #FFFFFF;
+    left: 20px;
+  }
+}
+
+.addProduct {
+  background: #FFFFFF;
+  box-shadow: 0px 0px 10px rgb(0 0 0 / 25%);
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+  margin: 14px;
+}

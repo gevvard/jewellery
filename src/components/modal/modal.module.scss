@@ -1,0 +1,39 @@
+.mask {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, .8);
+  z-index: 10;
+}
+.sidebar {
+  padding: 0px 30px;
+  //width: 400px;
+  position: absolute;
+  //top: 175px;
+  //right:65px;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  display: flex;
+  justify-content: center;
+  background-color: #FFFFFF;
+  border-radius: 5px;
+
+  .menu {
+    font-size: 22px;
+  }
+}
+
+.left {
+  .sidebar {
+    left:65px;
+  }
+}
+.addProduct{
+  .sidebar{
+    background-color: #61dafb;
+  }
+}

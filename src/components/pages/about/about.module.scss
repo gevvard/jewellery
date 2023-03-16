@@ -1,0 +1,30 @@
+.about {
+  height: 74vh;
+  h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    font-family: system-ui;
+    font-size: 30px;
+    margin-top: 20px;
+  }
+  p{
+    font-family: system-ui;
+    font-size: 20px;
+    padding: 20px;
+    margin: 10px;
+  }
+}
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  color: #FFFFFF;
+}
+.span{
+  border: 1px solid #141313;
+  margin: 4px;
+  background-color: #141313;
+}
